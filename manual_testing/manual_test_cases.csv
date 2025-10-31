@@ -1,4 +1,3 @@
-Test Case ID,Scenario / Title,Steps,Expected Result,Actual Result,Status,Screenshot
+Test Case ID,Scenario / Title,Steps to Execute,Expected Result,Actual Result,Status (Pass/Fail),Screenshot
 TC001,Valid Login,"Open login page → enter valid credentials → click login","Redirect to dashboard","Login successful, message displayed",PASS,screenshots/TC001.png
-TC001,Valid Login,"Open login page → enter valid credentials → click login","Redirect to dashboard","Redirect successful, success message displayed",PASS
-Test Case ID,Scenario / Title,Steps to Execute,Expected Result,Actual Result,Status (Pass/Fail)
+
