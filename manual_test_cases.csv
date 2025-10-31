@@ -1,0 +1,12 @@
+| **Test Case ID** | **Scenario / Title**                    | **Steps to Execute**                                                             | **Expected Result**                                    |
+| ---------------- | --------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| TC001            | Verify valid login                      | 1. Open login page<br>2. Enter correct username & password<br>3. Click Login     | Redirect to dashboard page                             |
+| TC002            | Verify invalid password                 | 1. Open login page<br>2. Enter valid username & wrong password<br>3. Click Login | Error message “Your password is invalid!” appears      |
+| TC003            | Verify empty login fields               | 1. Leave both fields blank<br>2. Click Login                                     | Show error “Username and Password required”            |
+| TC004            | Verify registration with valid data     | 1. Open Register page<br>2. Fill valid user info<br>3. Click Submit              | Success message “Account created successfully”         |
+| TC005            | Verify registration with existing email | 1. Use already registered email<br>2. Submit                                     | Error “Email already exists” appears                   |
+| TC006            | Verify logout                           | 1. Log in<br>2. Click Logout                                                     | Redirect to login page                                 |
+| TC007            | Verify form field validation            | 1. Leave one required field empty<br>2. Click Submit                             | Proper error message should appear                     |
+| TC008            | Verify navigation links                 | 1. Click each menu link                                                          | Should open correct page                               |
+| TC009            | Verify page load and UI                 | 1. Open homepage                                                                 | All elements (logo, buttons, text) visible and aligned |
+| TC010            | Verify security for URL access          | 1. Try to open `/dashboard` without login                                        | Redirect to login page                                 |
