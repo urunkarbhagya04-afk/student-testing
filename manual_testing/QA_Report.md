@@ -24,7 +24,7 @@ To verify the functionality, usability, and UI consistency of the web applicatio
 
 ---
 
-## 🧪 Test Case Execution Details
+## Test Case Execution Details
 
 | Test Case ID | Title | Expected Result | Actual Result | Status | Screenshot |
 |---------------|--------|------------------|----------------|----------|-------------|
